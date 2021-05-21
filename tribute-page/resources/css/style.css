@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,300&display=swap');
+
+/* ------------------------------------------------ */
+/*  BASIC SETUP                                     */
+/* ------------------------------------------------ */
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #fff;
+    color: #444;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+
+#main {
+    background-color: #eee;
+    margin: 40px 20px;
+    border-radius: 10px;
+}
+
+
+/* ------------------------------------------------ */
+/*  REUSABLE COMPONENTS                             */
+/* ------------------------------------------------ */
+h1 {
+    font-size: 250%;
+}
+
+h3 {
+    font-size: 100%;
+    font-weight: 200;
+    margin: 15px;
+}
+
+
+/* ------------------------------------------------ */
+/*  HEADER                                          */
+/* ------------------------------------------------ */
+header {
+    text-align: center;
+    line-height: 1.5;
+    padding: 20px 0;
+}
+
+
+/* ------------------------------------------------ */
+/*  IMAGE                                           */
+/* ------------------------------------------------ */
+#img-div {
+    background-color: #fff;
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+#img-div img {
+    width: auto;
+    height: 500px;
+}
+
+#img-caption {
+    /* margin: 20px 0; */
+    padding: 20px 0;
+}
+
+#tribute-info {
+    padding-left: 300px;
+}
+
+#tribute-info h2 {
+    font-weight: 200;
+    padding: 0 100px;
+    padding-top: 50px;
+}
+
+#tribute-info ul li {
+    padding: 10px 0;
+    text-align: left;
+}
